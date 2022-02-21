@@ -45,7 +45,7 @@ header > nav {
 .auth-form {
   display: grid;
   max-width: 80%;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   margin: auto;
 }
 
@@ -63,7 +63,7 @@ header > nav {
 
 .auth-form label {
   background: transparent;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   display: block;
   font-weight: 600;
 }
