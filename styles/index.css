@@ -14,6 +14,14 @@ body {
   );
 }
 
+header {
+  background: #fff;
+}
+
+header > nav {
+  padding: 1rem 2rem;
+}
+
 .glass {
   background: rgba(255, 255, 255, 0.3);
   box-shadow: var(--shadow);
