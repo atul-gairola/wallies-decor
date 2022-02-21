@@ -4,7 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wallies</title>
+    <link
+      rel="stylesheet"
+      href="https://glass-ui.netlify.app/styles/components.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Login</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <div class="glass form-container">
+        <form class="auth-form">
+          <h3>Login to your account</h3>
+          <p>Already have an account? <a href="">Signup</a></p>
+          <div>
+            <label>Email</label>
+            <div class="input-container input-lg">
+              <input type="text" name="email" placeholder="Enter your email" />
+            </div>
+          </div>
+          <div>
+            <label>Password</label>
+            <div class="input-container input-lg">
+              <input
+                type="text"
+                placeholder="Enter your password"
+                type="password"
+                name="password"
+              />
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Login to my account
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
 </html>
